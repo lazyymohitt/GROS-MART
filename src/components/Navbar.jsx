@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-        <div className='mx-auto bg-red-200 flex items-center justify-between px-6 py-3 fixed top-0 z-20 w-full borde-gray-100 shadow-xl lg:px-[180px] '>
+        <div className='mx-auto bg-green-200 flex items-center justify-between px-6 py-3 fixed top-0 z-20 w-full borde-gray-100 shadow-xl lg:px-[180px] '>
         {/* here is the logo */}
             <h1 className='font-[monospace]'>GrossMartt.</h1>
         {/* here is the Nav options section */}
@@ -14,6 +14,7 @@ const Navbar = () => {
             <h4>About</h4>
             <h4>Contacts</h4>
          </div>
+         <i class="ri-shopping-cart-line"></i>
         </nav>
         </div>
     </div>
